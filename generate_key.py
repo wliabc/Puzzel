@@ -1,5 +1,9 @@
 import string
 
+# Please not that the key is generated only using lowercase letters
+# Provide the starting letter and whether you need decode key (decodeflag == True) or encode key (decodeflag == False),
+# this function will return the key (either for decode or encode).
+
 def generate_key(start_letter, decodeflag):
 
     key={}
